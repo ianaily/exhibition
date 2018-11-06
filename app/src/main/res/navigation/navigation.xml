@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navigation"
+            app:startDestination="@id/exhibitListFragment">
+
+    <fragment
+            android:id="@+id/exhibitListFragment"
+            android:name="com.li695.exhibition.ui.exhibitList.ExhibitListFragment"
+            android:label="objects_list_fragment"
+            tools:layout="@layout/exhibit_list_fragment">
+        <action
+                android:id="@+id/action_exhibitListFragment_to_exhibitDetailFragment"
+                app:destination="@id/exhibitDetailFragment"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/exhibitDetailFragment"
+            android:name="com.li695.exhibition.ui.exhibitDetail.ExhibitDetailFragment"
+            android:label="ExhibitDetailFragment">
+        <argument
+                android:name="title"
+                app:argType="string"/>
+    </fragment>
+
+</navigation>
