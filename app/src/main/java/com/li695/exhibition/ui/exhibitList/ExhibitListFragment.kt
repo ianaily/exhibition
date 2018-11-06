@@ -1,4 +1,4 @@
-package com.li695.exhibition.ui.objectslist
+package com.li695.exhibition.ui.exhibitList
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProviders
 import com.li695.exhibition.R
 
-class ObjectsListFragment : androidx.fragment.app.Fragment() {
+class ExhibitListFragment : androidx.fragment.app.Fragment() {
 
     private lateinit var viewModel: ObjectsListViewModel
 
