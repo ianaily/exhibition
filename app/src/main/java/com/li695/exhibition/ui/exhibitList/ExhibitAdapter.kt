@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.li695.exhibition.R
 import com.li695.exhibition.domain.Exhibit
+import com.li695.exhibition.ui.common.ImageSliderAdapter
 
 
 class ExhibitAdapter(private val context: Context) :

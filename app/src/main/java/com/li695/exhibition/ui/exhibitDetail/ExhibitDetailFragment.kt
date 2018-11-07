@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.RecyclerView
 import com.li695.exhibition.ExhibitionApplication
 import com.li695.exhibition.R
-import com.li695.exhibition.ui.exhibitList.ImageSliderAdapter
+import com.li695.exhibition.ui.common.ImageSliderAdapter
 
 class ExhibitDetailFragment : androidx.fragment.app.Fragment() {
     private lateinit var viewModel: ExhibitDetailViewModel

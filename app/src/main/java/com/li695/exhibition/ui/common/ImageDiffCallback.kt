@@ -1,4 +1,4 @@
-package com.li695.exhibition.ui.exhibitList
+package com.li695.exhibition.ui.common
 
 import androidx.recyclerview.widget.DiffUtil
 

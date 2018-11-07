@@ -1,4 +1,4 @@
-package com.li695.exhibition.ui.exhibitList
+package com.li695.exhibition.ui.common
 
 import android.annotation.SuppressLint
 import android.content.Context
